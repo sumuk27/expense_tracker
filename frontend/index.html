@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="app">
+
+  <!-- 🔷 Sidebar -->
+  <div class="sidebar">
+    <div class="profile">
+      <!-- <img src="https://i.pravatar.cc/100" /> -->
+      <img src="image.avif" />
+
+      <h3 id="userName">User</h3>
+    </div>
+
+    <ul>
+      <li onclick="loadPage('dashboard')">Dashboard</li>
+      <li onclick="loadPage('income')">Income</li>
+      <li onclick="loadPage('expense')">Expense</li>
+      <li onclick="loadPage('profile')">Profile</li>
+      <li onclick="logout()">Logout</li>
+    </ul>
+  </div>
+
+  <!-- 🔷 Main Content -->
+  <div class="main">
+    <div id="content"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="dashboard.js"></script>
+<script src="income.js"></script>
+<script src="expense.js"></script>
+<script src="profile.js"></script>
+
+</body>
+</html>

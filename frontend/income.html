@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Income</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🔷 Navbar -->
+<div class="navbar">
+  <h2>Expense Tracker</h2>
+  <div>
+    <a href="profile.html">Profile</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="income.html">Income</a>
+    <a href="expense.html">Expense</a>
+    <button onclick="logout()">Logout</button>
+  </div>
+</div>
+
+<!-- ➕ Add Income -->
+<div class="container">
+  <h3>Add Income</h3>
+
+  <input type="text" id="source" placeholder="Source">
+  <input type="number" id="amount" placeholder="Amount">
+  <input type="date" id="date">
+
+  <button onclick="addIncome()">Add</button>
+</div>
+
+<!-- 📥 Income List -->
+<div class="transactions">
+  <h3>Your Income</h3>
+  <ul id="incomeList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

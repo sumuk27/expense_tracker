@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: #F5F6FA;
+}
+
+.app {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar li {
+  padding: 12px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sidebar li:hover {
+  background: #6C5CE7;
+  color: white;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+/* Grid */
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+/* Transactions */
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+/* Colors */
+.green {
+  color: #00C853;
+}
+
+.red {
+  color: #FF4D4D;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* dasboard page */
+.card h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.card h4 {
+  color: gray;
+}
+
+
+/* income page */
+.btn {
+  background: #6C5CE7;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* expense page */
+.form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.form input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/* profile page */
+
+.profile-card {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.detail {
+  background: #F5F6FA;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
